@@ -1,0 +1,212 @@
+*{
+	font-family: cairo;
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+body{
+	background-color: rgb(45, 56, 76);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 20px 50px;
+}
+
+
+
+nav ul li a {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+
+nav ul li a:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(237, 193, 57);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+nav ul li a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+
+
+/* Menu bar */
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+
+nav h3 a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+
+
+
+nav span{
+	color: #F8CC1A;
+	font-weight: normal;
+}
+
+
+
+
+
+
+/* FORM */
+
+.info{
+	background-color: white;
+	width: 1000px;
+	margin: 50px 50px;
+	padding: 100px 0px;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px rgba(255, 255, 255,10%);
+}
+
+form{
+	text-align: center;
+}
+
+
+
+.zone{
+	width: 280px;
+	padding: 5px;
+	margin-bottom: 2px;
+
+	border: 0.5px gray solid;
+	border-radius: 5px;
+}
+
+.zonexp{
+	width: 280px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 0.5px gray solid;
+	border-radius: 5px;
+	margin-top: -9px;
+}
+
+
+.btn{
+	margin-top: 10px;
+	font-size: 16px;
+	padding: 5px 8px;
+	background-color: #F8CC1A;
+	color: #4C0033;
+	border: none;
+	border-radius: 10px;
+	transition: 0.7s ease;
+}
+
+.btn:hover{
+	background-color: orangered;
+	color: white;
+	transform: scale(1.1);
+
+}
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	margin-top: -20px;
+	
+}
+
+
+
+h1{
+	color: whitesmoke;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+
+/* manipuler l'image */
+ .info img{
+ 	display: block;
+ 	width:160px;
+ 	margin-top: -90px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+
+ }
+
+/* textarea */
+
+textarea{
+	height: 100px;
+	margin: 10px 10px;
+}
+
+/* upload pic */
+
+input[type="file"]{
+	margin-bottom: 20px;
+
+}
+
+
+input[type="file"]::file-selector-button{
+	color: dimgrey;
+	padding: 6px 20px;
+	background-color: white;
+	border-radius: 20px;
+	border: gray 1px solid;
+	transition: 0.7s ease;
+
+} 
+
+input[type="file"]::file-selector-button:hover{
+	background-color: rgb(45, 56, 76);
+	color: white;
+
+}
+
+input{
+	margin: 10px 10px;
+}
+
+
+
+#ImagePreview img{
+	width: 120px;
+	height: 120px;
+	padding: 20px 0px;
+}
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>CV GENERATORS</title>
+	
+</head>
+<body>
+	<nav>
+		<h3><a href="#">CV <span>GENERATORS</span></a></h3>
+		<ul>
+			<li><a href="index1.html">Acceuil</a></li>
+			<li><a href="#">Generator</a></li>
+			<li><a href="index1.html#about">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+
+<section class="content">
+	<h1 style="margin-top: -2px;">ENTRER VOS INFOS</h1>
+
+	<div class="container">
+
+		<section class="info" style="height: 380px; margin-top: 35px;">
+			<!-- Image -->
+			<div id="ImagePreview">
+			<img src="image/profilepic.jpeg" id="imageprofile">
+			<h3 style="font-size: 10px; text-align: center; margin-top: -10px;" >taille preferable (120 x 120 px)</h3>
+			</div>
+			<!-- Form -->
+		<form method="post" action="file.php" enctype="multipart/form-data" id="theForm">
+
+			<input type="file" name="photo" id="photo"><br>
+			<input type="text" name="fullname" placeholder="Nom Complet" autofocus class="zone" required>
+			<input type="number" name="age" placeholder="Age" class="zone" required>
+			<input type="text" name="addresse" placeholder="Addresse" class="zone"required>
+
+			<input type="number" name="phonenum" placeholder="Numero de tele" class="zone" required>
+			<input type="text" name="email" placeholder="Addresse Email" class="zone" required>
+			<input type="text" name="Nationalite" placeholder="CIN" class="zone" required>
+
+			<input type="text" name="loisir" placeholder="Loisir" class="zone" required>
+			<input type="text" name="field" placeholder="Profile" class="zone" required>
+			<input type="Date" name="date" class="zone" required>
+			
+			<div>
+			<textarea style="resize: none;" class="zone" placeholder="Formation" name="formation" required></textarea>
+			<textarea style="resize: none;" class="zone" placeholder="Experience" name="experience"></textarea required>
+			<textarea style="resize: none;" name="language" placeholder="Languages" class="zone" required ></textarea><br>
+			</div>
+
+			<input type="submit" name="btn" value="Generer votre CV" class="btn">
+			
+		</form>
+	</div>
+	</section>
+</section>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

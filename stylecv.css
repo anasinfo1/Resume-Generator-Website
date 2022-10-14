@@ -1,0 +1,52 @@
+*{
+	font-family: cairo;
+}
+
+
+body{
+	background-color: rgb(45, 56, 76);
+}
+
+.page{
+	
+	background-color: white;
+	padding: 5px 5px;
+	font-size: 0.8em;
+
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.btns{
+	background-color: #F8CC1A;
+	color: black;
+	border: skyblue 1px solid;
+	font-size: 1.1em;
+	border-radius: 10px;
+	height: 50px;
+	margin-left: 100px;
+	margin-top: -400px;
+	padding: 5px 10px;
+	transition: 0.7s ease;
+
+}
+
+
+.btns:hover{
+	background-color: orangered;
+	transform: scale(1.1);
+	border: white; 1px solid;
+	color: white;
+
+}
+
+
+
+
+
+
