@@ -180,7 +180,7 @@ for ($i=0; $i < count($languages) ; $i++) {
 
 <h1 style="color: white; margin-bottom: 700px; margin-left: 700px ; position: absolute;">Vous êtes Prêt</h1>
 
-<img src="oneclickflech.png" style="width:400px; margin-left: 80px;">
+<img src="image/oneclickflech.png" style="width:400px; margin-left: 80px;">
 <input type="button" value="Telecharger ou Imprimer CV" onclick="printDiv()" class="btns" style="margin-left: -5px;">
 
 

@@ -4,6 +4,7 @@
 	margin: 0;
 	scroll-behavior: smooth;
 
+
 }
 
 body{
@@ -67,9 +68,8 @@ nav ul li a:hover:after {
 
 
 
-nav span{
-	color: #F8CC1A;
-	font-weight: normal;
+nav img{
+	width: 220px;
 }
 
 
@@ -87,6 +87,13 @@ nav span{
 .textbody h1{
 	color: #F8CC1A;
 
+}
+
+
+
+.textbody h1::selection{
+	color: white;
+	background-color: black;
 }
 
 .textbody p{
@@ -126,10 +133,20 @@ margin-top: 60px;
 	margin-top: 10px;
 }
 
+
+.textbody{
+	z-index: 999;
+}
+
+
 .textbody h3 a:hover{
 	background-color: orangered;
 	color: white;
 	transform: scale(1.1);
+}
+
+.textbody h3 a{
+	padding: 5px 15px;
 }
 
 
@@ -350,10 +367,12 @@ color: #7d8396;
 
 .card:hover h3{
       color: royalblue;
+
 }
 
 .card:hover{
       transform: scale(1.1);
+      cursor: pointer;
 }
 
 
@@ -372,6 +391,9 @@ color: #7d8396;
 
 
 
+h4{
+	font-weight: normal;
+}
 
 
 
