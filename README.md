@@ -1,2 +1,2 @@
-# SALAMA-CV-GENERATOR
+RESUME-GENERATOR
 Your Way To build A Professional Resume
