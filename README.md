@@ -12,8 +12,8 @@ Your Way To build A Professional Resume
 <h3>Generator form : </h3>
 
 <div style="display:flex;">
-<img width="500" alt="Screenshot 2023-01-13 at 20 37 32" src="https://user-images.githubusercontent.com/94865392/212406311-c429026e-f876-4a85-83d6-fbd84241a5bb.png">
-<img width="500" alt="Screenshot 2023-01-13 at 20 39 23" src="https://user-images.githubusercontent.com/94865392/212406317-c8b275ad-bd26-4180-b44b-6f4de61798c9.png">
+<img width="400" alt="Screenshot 2023-01-13 at 20 37 32" src="https://user-images.githubusercontent.com/94865392/212406311-c429026e-f876-4a85-83d6-fbd84241a5bb.png">
+<img width="400" alt="Screenshot 2023-01-13 at 20 39 23" src="https://user-images.githubusercontent.com/94865392/212406317-c8b275ad-bd26-4180-b44b-6f4de61798c9.png">
 </div>
 
 
